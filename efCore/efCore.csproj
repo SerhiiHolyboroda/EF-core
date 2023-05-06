@@ -159,9 +159,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="src\Order.cs" />
     <Compile Include="src\OrderContext.cs" />
+    <Compile Include="src\OrderRepository.cs" />
     <Compile Include="src\Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
